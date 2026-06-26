@@ -1,0 +1,14 @@
+# Python virtual environment
+venvObesity/
+.venvObesity/
+envObesity/
+bin/
+lib/
+
+# Local raw data directories
+sources/
+**/sources/
+
+# Fail-safe: Block all heavy SAS/NHANES data files regardless of folder
+*.XPT
+*.xpt
